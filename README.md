@@ -38,13 +38,13 @@ src/
 │   │   ├── Contact.module.css       # CSS module for styling contact list and form                                                                                 
 │   │   └── ContactReducer.js        # Redux slice and async thunks for contacts                                                                                    
 │   │                                                                                                                                                               
-│   └── Navbar/
-│       ├── Navbar.jsx               # Navigation bar component (optional or reusable)
+│   └── Navbar/                                                                                                                                                     
+│       ├── Navbar.jsx               # Navigation bar component (optional or reusable)                                                                              
 │       └── Navbar.module.css        # Styling for Navbar
-│
-├── index.js                         # Entry point
-├── App.js                           # Root component
-└── App.css / App.module.css         # Global or scoped styles                                                                                                                                                           
+│                                                                                                                                                                   
+├── index.js                         # Entry point                                                                                                                  
+├── App.js                           # Root component                                                                                                               
+└── App.css / App.module.css         # Global or scoped styles                                                                                                                                                                                                                                                                     
 
 ## Install dependencies
 npm install 
