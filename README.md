@@ -29,6 +29,7 @@ This is a simple Contact Management application built using **React** and **Redu
 ## 📂 Project Structure
 
 src/
+
 ├── ContactList.js # Main component for displaying and managing contacts
 ├── ContactReducer.js # Redux slice with async thunks and reducers
 ├── Contact.module.css # CSS module for styling components
