@@ -28,23 +28,23 @@ This is a simple Contact Management application built using **React** and **Redu
 
 ## 📂 Project Structure
 
-src/
-├── app/
-│   └── store.js                     # Redux store configuration
-│
-├── features/
-│   ├── Contact/
-│   │   ├── Contact.jsx              # Main ContactList component
-│   │   ├── Contact.module.css       # CSS module for styling contact list and form
-│   │   └── ContactReducer.js        # Redux slice and async thunks for contacts
-│   │
-│   └── Navbar/
-│       ├── Navbar.jsx               # Navigation bar component (optional or reusable)
+src/                                                                                                                                                                
+├── app/                                                                                                                                                            
+│   └── store.js                     # Redux store configuration                                                                                                    
+│                                                                                                                                                                   
+├── features/                                                                                                                                                       
+│   ├── Contact/                                                                                                                                                    
+│   │   ├── Contact.jsx              # Main ContactList component                                                                                                   
+│   │   ├── Contact.module.css       # CSS module for styling contact list and form                                                                                 
+│   │   └── ContactReducer.js        # Redux slice and async thunks for contacts                                                                                    
+│   │                                                                                                                                                               
+│   └── Navbar/                                                                                                                                                     
+│       ├── Navbar.jsx               # Navigation bar component (optional or reusable)                                                                              
 │       └── Navbar.module.css        # Styling for Navbar
-│
-├── index.js                         # Entry point
-├── App.js                           # Root component
-└── App.css / App.module.css         # Global or scoped styles
+│                                                                                                                                                                   
+├── index.js                         # Entry point                                                                                                                  
+├── App.js                           # Root component                                                                                                               
+└── App.css / App.module.css         # Global or scoped styles                                                                                                                                                                                                                                                                     
 
 ## Install dependencies
 npm install 
