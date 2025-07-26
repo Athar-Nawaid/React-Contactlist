@@ -108,7 +108,7 @@ let contactSlice = createSlice({
         .addCase(addAsync.fulfilled,(state,action)=>{
             // console.log("add");
             // console.log(action.payload);
-            state.contacts.push(action.payload);
+            state.contacts = [action.payload,...state.contacts];
             state.count = state.count+1;
 
         })

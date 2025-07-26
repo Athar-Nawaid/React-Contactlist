@@ -92,7 +92,7 @@ function Form(props){
     const handleAdd = ()=>{
         // @ts-ignore
         dispatch(addAsync({name:newName,email:newEmail,phone:newPhone}));
-        
+        handleShowForm();
     }
 
     return(
